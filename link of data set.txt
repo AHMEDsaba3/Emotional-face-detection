@@ -3,3 +3,5 @@ https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-datase
 https://www.kaggle.com/datasets/msambare/fer2013
 
 ## we merged both dataset to train the model ##
+
+download both dataset from both link and merge all file in train and test file  
