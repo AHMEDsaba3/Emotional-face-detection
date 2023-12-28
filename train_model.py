@@ -13,7 +13,7 @@ test_data_gen = ImageDataGenerator(rescale=1./255)
 
 # Preprocess all test images
 train_generator = train_data_gen.flow_from_directory(
-        'D:/semester 7/digital image/project/models/model.ult/train',
+        'D:/semester 7/digital image/project/models/model.ult/train',#add link (Directory) of train model
         target_size=(48, 48),
         batch_size=64,
         color_mode="grayscale",
@@ -21,7 +21,7 @@ train_generator = train_data_gen.flow_from_directory(
 
 # Preprocess all train images
 test_generator = test_data_gen.flow_from_directory(
-        'D:/semester 7/digital image/project/models/model.ult/test',
+        'D:/semester 7/digital image/project/models/model.ult/test',#add link (Directory) of test model
         target_size=(48, 48),
         batch_size=64,
         color_mode="grayscale",
