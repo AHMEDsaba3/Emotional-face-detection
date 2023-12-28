@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
+
+https://www.kaggle.com/datasets/msambare/fer2013
+
+## we merged both dataset to train the model ##
